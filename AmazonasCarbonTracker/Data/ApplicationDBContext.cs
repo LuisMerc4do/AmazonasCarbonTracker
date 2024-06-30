@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using System;
 using AmazonasCarbonTracker.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
@@ -10,28 +8,43 @@ namespace AmazonasCarbonTracker.Data
 {
     public class ApplicationDBContext : IdentityDbContext<AppUser>
     {
-        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> dbContextOptions) : base(dbContextOptions) { }
+        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options) { }
 
         public DbSet<EmissionRecord> EmissionRecords { get; set; }
         public DbSet<SustainabilityMetrics> SustainabilityMetrics { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            // Configure relationships
             builder.Entity<EmissionRecord>()
-                .HasOne(er => er.AppUser)
-                .WithMany(u => u.EmissionRecords)
-                .HasForeignKey(er => er.AppUserId);
+                .Property(e => e.Date)
+                .HasColumnType("timestamp")
+                .IsRequired();
+
+            builder.Entity<EmissionRecord>()
+                .HasKey(e => e.Id);
 
             builder.Entity<SustainabilityMetrics>()
-                .HasOne(sm => sm.AppUser)
+                .HasKey(s => s.Id);
+
+            builder.Entity<EmissionRecord>()
+                .HasOne(e => e.AppUser)
+                .WithMany(u => u.EmissionRecords)
+                .HasForeignKey(e => e.AppUserId);
+
+            builder.Entity<SustainabilityMetrics>()
+                .HasOne(s => s.AppUser)
                 .WithMany(u => u.SustainabilityMetrics)
-                .HasForeignKey(sm => sm.AppUserId);
+                .HasForeignKey(s => s.AppUserId);
 
-            List<IdentityRole> roles = new List<IdentityRole>()
+            SeedRoles(builder);
+        }
+
+        private void SeedRoles(ModelBuilder builder)
+        {
+            var roles = new List<IdentityRole>()
             {
-
                 new IdentityRole
                 {
                     Name = "Admin",
@@ -48,8 +61,8 @@ namespace AmazonasCarbonTracker.Data
                     NormalizedName = "USER"
                 },
             };
-            builder.Entity<IdentityRole>().HasData(roles);
 
+            builder.Entity<IdentityRole>().HasData(roles);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\Amazonascarbontracker\\AmazonasCarbonTracker.csproj": {}
+    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\Amazonascarbontracker\\AmazonasCarbonTracker.csproj": {
+    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\Amazonascarbontracker\\AmazonasCarbonTracker.csproj",
+        "projectUniqueName": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj",
         "projectName": "AmazonasCarbonTracker",
-        "projectPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\Amazonascarbontracker\\AmazonasCarbonTracker.csproj",
+        "projectPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj",
         "packagesPath": "C:\\Users\\skill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\Amazonascarbontracker\\obj\\",
+        "outputPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -82,9 +82,13 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [

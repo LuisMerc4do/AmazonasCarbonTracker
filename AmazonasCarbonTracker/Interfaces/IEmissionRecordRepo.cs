@@ -5,7 +5,7 @@ namespace AmazonasCarbonTracker.Interfaces;
 
 public interface IEmissionRecordRepo
 {
-    Task<List<EmissionRecord>> GetAllAsync(EmissionRecord emissionRecord);
+    Task<List<EmissionRecord>> GetAllAsync();
     Task<EmissionRecord?> GetByIdAsync(int id);
     Task<EmissionRecord> CreateAsync(EmissionRecord emissionRecord);
     Task<EmissionRecord?> DeleteAsync(int id);

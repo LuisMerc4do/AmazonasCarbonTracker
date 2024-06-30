@@ -146,3 +146,5 @@ C:\Users\skill\source\repos\AmazonasCarbonTracker\Amazonascarbontracker\bin\Debu
 C:\Users\skill\source\repos\AmazonasCarbonTracker\Amazonascarbontracker\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\skill\source\repos\AmazonasCarbonTracker\Amazonascarbontracker\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\skill\source\repos\AmazonasCarbonTracker\Amazonascarbontracker\obj\Debug\net8.0\AmazonasCarbonTracker.sourcelink.json
+C:\Users\skill\source\repos\AmazonasCarbonTracker\amazonascarbontracker\bin\Debug\net8.0\Npgsql.dll
+C:\Users\skill\source\repos\AmazonasCarbonTracker\amazonascarbontracker\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

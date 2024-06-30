@@ -1,10 +1,11 @@
-using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace AmazonasCarbonTracker.Dtos
+namespace AmazonasCarbonTracker.Dtos.EmissionRecordDtos
 {
-    public class UpdateEmissionDto
+    public class EmissionRecordDto
     {
+        public int Id { get; set; }
+
         [Required(ErrorMessage = "Date is required.")]
         public DateTime Date { get; set; } = DateTime.Now;
 
@@ -14,7 +15,6 @@ namespace AmazonasCarbonTracker.Dtos
         [Required(ErrorMessage = "Emission amount is required.")]
         [Range(0, double.MaxValue, ErrorMessage = "Emission amount must be a positive number.")]
         public double EmissionAmount { get; set; }
-
-        // Add any other properties needed for update
+        public string? AppUserId { get; set; }
     }
 }
