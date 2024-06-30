@@ -12,14 +12,23 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 // Configuration
 builder.Configuration.AddJsonFile("appsettings.json");
+
+// Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.File("logs/myapp-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+// Continue with other configurations
+
+builder.Host.UseSerilog(); // Use Serilog for logging
 
 // DbContext
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
@@ -108,7 +117,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseRouting();
-
+app.UseSerilogRequestLogging(); // Enable Serilog request logging middleware
 app.UseAuthentication();
 app.UseAuthorization();
 

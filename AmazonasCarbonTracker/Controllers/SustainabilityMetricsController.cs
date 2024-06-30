@@ -4,6 +4,7 @@ using AmazonasCarbonTracker.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,6 +42,7 @@ namespace AmazonasCarbonTracker.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Failed to retrieve sustainability metrics");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -69,6 +71,7 @@ namespace AmazonasCarbonTracker.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, $"Failed to retrieve sustainability metric with id {id}");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -84,6 +87,7 @@ namespace AmazonasCarbonTracker.Controllers
 
                 if (user == null)
                 {
+                    Log.Warning("Invalid AppUserId. User does not exist: {AppUserId}", createDto.AppUserId);
                     return BadRequest("Invalid AppUserId. User does not exist.");
                 }
 
@@ -97,10 +101,12 @@ namespace AmazonasCarbonTracker.Controllers
                 _context.SustainabilityMetrics.Add(sustainabilityMetric);
                 await _context.SaveChangesAsync();
 
+                Log.Information("Sustainability metric created successfully. Id: {Id}", sustainabilityMetric.Id);
                 return CreatedAtAction(nameof(GetSustainabilityMetric), new { id = sustainabilityMetric.Id }, sustainabilityMetric);
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Failed to create sustainability metric");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -123,6 +129,7 @@ namespace AmazonasCarbonTracker.Controllers
 
                 await _context.SaveChangesAsync();
 
+                Log.Information("Sustainability metric updated successfully. Id: {Id}", id);
                 return NoContent();
             }
             catch (DbUpdateConcurrencyException)
@@ -138,6 +145,7 @@ namespace AmazonasCarbonTracker.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, $"Failed to update sustainability metric with id {id}");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -158,10 +166,12 @@ namespace AmazonasCarbonTracker.Controllers
                 _context.SustainabilityMetrics.Remove(sustainabilityMetric);
                 await _context.SaveChangesAsync();
 
+                Log.Information("Sustainability metric deleted successfully. Id: {Id}", id);
                 return NoContent();
             }
             catch (Exception ex)
             {
+                Log.Error(ex, $"Failed to delete sustainability metric with id {id}");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }

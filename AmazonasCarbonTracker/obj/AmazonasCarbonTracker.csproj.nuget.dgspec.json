@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj": {}
+    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\amazonascarbontracker\\AmazonasCarbonTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj": {
+    "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\amazonascarbontracker\\AmazonasCarbonTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj",
+        "projectUniqueName": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\amazonascarbontracker\\AmazonasCarbonTracker.csproj",
         "projectName": "AmazonasCarbonTracker",
-        "projectPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj",
+        "projectPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\amazonascarbontracker\\AmazonasCarbonTracker.csproj",
         "packagesPath": "C:\\Users\\skill\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\obj\\",
+        "outputPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\amazonascarbontracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,6 +85,14 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

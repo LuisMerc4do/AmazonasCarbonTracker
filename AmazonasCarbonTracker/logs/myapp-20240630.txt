@@ -1,0 +1,182 @@
+2024-06-30 18:53:17.196 +10:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-30 18:53:17.235 +10:00 [DBG] Hosting starting
+2024-06-30 18:53:17.244 +10:00 [INF] User profile is available. Using 'C:\Users\skill\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-30 18:53:17.248 +10:00 [DBG] Reading data from file 'C:\Users\skill\AppData\Local\ASP.NET\DataProtection-Keys\key-3559f61d-0ba4-4ed7-9bed-237b220c4825.xml'.
+2024-06-30 18:53:17.253 +10:00 [DBG] Found key {3559f61d-0ba4-4ed7-9bed-237b220c4825}.
+2024-06-30 18:53:17.257 +10:00 [DBG] Considering key {3559f61d-0ba4-4ed7-9bed-237b220c4825} with expiration date 2024-09-13 09:24:24Z as default key.
+2024-06-30 18:53:17.258 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-30 18:53:17.259 +10:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-06-30 18:53:17.260 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-30 18:53:17.262 +10:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-06-30 18:53:17.262 +10:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-06-30 18:53:17.263 +10:00 [DBG] Using key {3559f61d-0ba4-4ed7-9bed-237b220c4825} as the default key.
+2024-06-30 18:53:17.263 +10:00 [DBG] Key ring with default key {3559f61d-0ba4-4ed7-9bed-237b220c4825} was loaded during application startup.
+2024-06-30 18:53:17.285 +10:00 [INF] Now listening on: http://localhost:5278
+2024-06-30 18:53:17.285 +10:00 [DBG] Loaded hosting startup assembly AmazonasCarbonTracker
+2024-06-30 18:53:17.285 +10:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-30 18:53:17.285 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-30 18:53:17.285 +10:00 [INF] Hosting environment: Development
+2024-06-30 18:53:17.285 +10:00 [INF] Content root path: C:\Users\skill\source\repos\AmazonasCarbonTracker\amazonascarbontracker
+2024-06-30 18:53:17.285 +10:00 [DBG] Hosting started
+2024-06-30 18:53:27.785 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" accepted.
+2024-06-30 18:53:27.787 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" started.
+2024-06-30 18:53:27.787 +10:00 [DBG] Connection id "0HN4OS8DUBV1R" accepted.
+2024-06-30 18:53:27.787 +10:00 [DBG] Connection id "0HN4OS8DUBV1R" started.
+2024-06-30 18:53:27.806 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:5278/ - null null
+2024-06-30 18:53:27.809 +10:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-06-30 18:53:27.818 +10:00 [DBG] The request path  does not match the path filter
+2024-06-30 18:53:27.827 +10:00 [DBG] No candidates found for the request path '/'
+2024-06-30 18:53:27.827 +10:00 [DBG] Request did not match any endpoints
+2024-06-30 18:53:27.841 +10:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-06-30 18:53:27.842 +10:00 [INF] HTTP GET / responded 404 in 13.4236 ms
+2024-06-30 18:53:27.844 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" completed keep alive response.
+2024-06-30 18:53:27.845 +10:00 [INF] Request finished HTTP/1.1 GET http://localhost:5278/ - 404 0 null 39.7434ms
+2024-06-30 18:53:27.846 +10:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5278/, Response status code: 404
+2024-06-30 18:53:28.804 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:5278/ - null null
+2024-06-30 18:53:28.806 +10:00 [DBG] The request path  does not match the path filter
+2024-06-30 18:53:28.806 +10:00 [DBG] No candidates found for the request path '/'
+2024-06-30 18:53:28.806 +10:00 [DBG] Request did not match any endpoints
+2024-06-30 18:53:28.806 +10:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-06-30 18:53:28.806 +10:00 [INF] HTTP GET / responded 404 in 0.5853 ms
+2024-06-30 18:53:28.806 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" completed keep alive response.
+2024-06-30 18:53:28.807 +10:00 [INF] Request finished HTTP/1.1 GET http://localhost:5278/ - 404 0 null 2.3018ms
+2024-06-30 18:53:28.807 +10:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5278/, Response status code: 404
+2024-06-30 18:53:35.512 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:5278/ - null null
+2024-06-30 18:53:35.513 +10:00 [DBG] The request path  does not match the path filter
+2024-06-30 18:53:35.513 +10:00 [DBG] No candidates found for the request path '/'
+2024-06-30 18:53:35.513 +10:00 [DBG] Request did not match any endpoints
+2024-06-30 18:53:35.514 +10:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-06-30 18:53:35.514 +10:00 [INF] HTTP GET / responded 404 in 1.1776 ms
+2024-06-30 18:53:35.514 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" completed keep alive response.
+2024-06-30 18:53:35.514 +10:00 [INF] Request finished HTTP/1.1 GET http://localhost:5278/ - 404 0 null 2.1997ms
+2024-06-30 18:53:35.514 +10:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5278/, Response status code: 404
+2024-06-30 18:53:38.383 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:5278/swagger/index.html - null null
+2024-06-30 18:53:38.420 +10:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-06-30 18:53:38.425 +10:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-06-30 18:53:38.426 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" completed keep alive response.
+2024-06-30 18:53:38.426 +10:00 [INF] Request finished HTTP/1.1 GET http://localhost:5278/swagger/index.html - 200 null text/html;charset=utf-8 42.8746ms
+2024-06-30 18:53:38.438 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:5278/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 18:53:38.440 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" completed keep alive response.
+2024-06-30 18:53:38.440 +10:00 [INF] Request finished HTTP/1.1 GET http://localhost:5278/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 2.2471ms
+2024-06-30 18:53:38.517 +10:00 [INF] Request starting HTTP/1.1 GET http://localhost:5278/swagger/v1/swagger.json - null null
+2024-06-30 18:53:38.598 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" completed keep alive response.
+2024-06-30 18:53:38.598 +10:00 [INF] Request finished HTTP/1.1 GET http://localhost:5278/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.9478ms
+2024-06-30 18:53:54.840 +10:00 [INF] Request starting HTTP/1.1 POST http://localhost:5278/api/v1/auth/login - application/json-patch+json 65
+2024-06-30 18:53:54.840 +10:00 [DBG] POST requests are not supported
+2024-06-30 18:53:54.845 +10:00 [DBG] 1 candidate(s) found for the request path '/api/v1/auth/login'
+2024-06-30 18:53:54.847 +10:00 [DBG] Endpoint 'AmazonasCarbonTracker.Controllers.AccountController.Login (AmazonasCarbonTracker)' with route pattern 'api/v1/auth/login' is valid for the request path '/api/v1/auth/login'
+2024-06-30 18:53:54.847 +10:00 [DBG] Request matched endpoint 'AmazonasCarbonTracker.Controllers.AccountController.Login (AmazonasCarbonTracker)'
+2024-06-30 18:53:54.849 +10:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-06-30 18:53:54.849 +10:00 [INF] Executing endpoint 'AmazonasCarbonTracker.Controllers.AccountController.Login (AmazonasCarbonTracker)'
+2024-06-30 18:53:54.870 +10:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(AmazonasCarbonTracker.Dtos.AccountDto.LoginDto) on controller AmazonasCarbonTracker.Controllers.AccountController (AmazonasCarbonTracker).
+2024-06-30 18:53:54.871 +10:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-06-30 18:53:54.871 +10:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-06-30 18:53:54.871 +10:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-06-30 18:53:54.872 +10:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-06-30 18:53:54.872 +10:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-06-30 18:53:54.873 +10:00 [DBG] Executing controller factory for controller AmazonasCarbonTracker.Controllers.AccountController (AmazonasCarbonTracker)
+2024-06-30 18:53:54.924 +10:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-06-30 18:53:54.937 +10:00 [DBG] Executed controller factory for controller AmazonasCarbonTracker.Controllers.AccountController (AmazonasCarbonTracker)
+2024-06-30 18:53:54.938 +10:00 [DBG] Attempting to bind parameter 'loginDto' of type 'AmazonasCarbonTracker.Dtos.AccountDto.LoginDto' ...
+2024-06-30 18:53:54.940 +10:00 [DBG] Attempting to bind parameter 'loginDto' of type 'AmazonasCarbonTracker.Dtos.AccountDto.LoginDto' using the name '' in request data ...
+2024-06-30 18:53:54.940 +10:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-06-30 18:53:54.941 +10:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-06-30 18:53:54.943 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q", Request id "0HN4OS8DUBV1Q:00000007": started reading request body.
+2024-06-30 18:53:54.943 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q", Request id "0HN4OS8DUBV1Q:00000007": done reading request body.
+2024-06-30 18:53:54.977 +10:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'AmazonasCarbonTracker.Dtos.AccountDto.LoginDto'.
+2024-06-30 18:53:54.977 +10:00 [DBG] Done attempting to bind parameter 'loginDto' of type 'AmazonasCarbonTracker.Dtos.AccountDto.LoginDto'.
+2024-06-30 18:53:54.977 +10:00 [DBG] Attempting to validate the bound parameter 'loginDto' of type 'AmazonasCarbonTracker.Dtos.AccountDto.LoginDto' ...
+2024-06-30 18:53:54.980 +10:00 [DBG] Done attempting to validate the bound parameter 'loginDto' of type 'AmazonasCarbonTracker.Dtos.AccountDto.LoginDto'.
+2024-06-30 18:53:55.225 +10:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-06-30 18:53:55.225 +10:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-06-30 18:53:55.386 +10:00 [DBG] Entity Framework Core 8.0.6 initialized 'ApplicationDBContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.4+51faf6e9c9c7ef99c3e98d98a96adb8fa8ae4553' with options: None
+2024-06-30 18:53:55.411 +10:00 [DBG] Compiling query expression: 
+'DbSet<AppUser>()
+    .FirstOrDefault(x => x.Email == __ToLower_0)'
+2024-06-30 18:53:55.509 +10:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<AppUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<AppUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: AppUser.Id (string) Required PK AfterSave:Throw, 0], [Property: AppUser.AccessFailedCount (int) Required, 1], [Property: AppUser.ConcurrencyStamp (string) Concurrency, 2], [Property: AppUser.Email (string) MaxLength(256), 3], [Property: AppUser.EmailConfirmed (bool) Required, 4], [Property: AppUser.LockoutEnabled (bool) Required, 5], [Property: AppUser.LockoutEnd (DateTimeOffset?), 6], [Property: AppUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: AppUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: AppUser.PasswordHash (string), 9], [Property: AppUser.PhoneNumber (string), 10], [Property: AppUser.PhoneNumberConfirmed (bool) Required, 11], [Property: AppUser.SecurityStamp (string), 12], [Property: AppUser.TwoFactorEnabled (bool) Required, 13], [Property: AppUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.Email == @__ToLower_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, AppUser>, 
+        AmazonasCarbonTracker.Data.ApplicationDBContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-06-30 18:53:55.527 +10:00 [DBG] Creating DbConnection.
+2024-06-30 18:53:55.539 +10:00 [DBG] Created DbConnection. (11ms).
+2024-06-30 18:53:55.540 +10:00 [DBG] Opening connection to database 'amazonascarbontrackerdb' on server 'tcp://localhost:5432'.
+2024-06-30 18:53:55.625 +10:00 [DBG] Opened connection to database 'amazonascarbontrackerdb' on server 'tcp://localhost:5432'.
+2024-06-30 18:53:55.627 +10:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-06-30 18:53:55.630 +10:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-06-30 18:53:55.632 +10:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-06-30 18:53:55.636 +10:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Email" = @__ToLower_0
+LIMIT 1
+2024-06-30 18:53:55.671 +10:00 [INF] Executed DbCommand (36ms) [Parameters=[@__ToLower_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Email" = @__ToLower_0
+LIMIT 1
+2024-06-30 18:53:55.693 +10:00 [DBG] Context 'ApplicationDBContext' started tracking 'AppUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-06-30 18:53:55.716 +10:00 [DBG] Closing data reader to 'amazonascarbontrackerdb' on server 'tcp://localhost:5432'.
+2024-06-30 18:53:55.720 +10:00 [DBG] A data reader for 'amazonascarbontrackerdb' on server 'tcp://localhost:5432' is being disposed after spending 46ms reading results.
+2024-06-30 18:53:55.722 +10:00 [DBG] Closing connection to database 'amazonascarbontrackerdb' on server 'tcp://localhost:5432'.
+2024-06-30 18:53:55.724 +10:00 [DBG] Closed connection to database 'amazonascarbontrackerdb' on server 'tcp://localhost:5432' (1ms).
+2024-06-30 18:53:55.783 +10:00 [INF] User logged in successfully: skills9916@gmail.com
+2024-06-30 18:53:55.797 +10:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-06-30 18:53:55.798 +10:00 [DBG] No information found on request to perform content negotiation.
+2024-06-30 18:53:55.798 +10:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-06-30 18:53:55.798 +10:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-06-30 18:53:55.798 +10:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-06-30 18:53:55.798 +10:00 [INF] Executing OkObjectResult, writing value of type 'AmazonasCarbonTracker.Dtos.NewUserDto'.
+2024-06-30 18:53:55.812 +10:00 [INF] Executed action AmazonasCarbonTracker.Controllers.AccountController.Login (AmazonasCarbonTracker) in 938.7031ms
+2024-06-30 18:53:55.813 +10:00 [INF] Executed endpoint 'AmazonasCarbonTracker.Controllers.AccountController.Login (AmazonasCarbonTracker)'
+2024-06-30 18:53:55.813 +10:00 [INF] HTTP POST /api/v1/auth/login responded 200 in 964.6589 ms
+2024-06-30 18:53:55.814 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" completed keep alive response.
+2024-06-30 18:53:55.815 +10:00 [DBG] 'ApplicationDBContext' disposed.
+2024-06-30 18:53:55.816 +10:00 [DBG] Disposing connection to database 'amazonascarbontrackerdb' on server 'tcp://localhost:5432'.
+2024-06-30 18:53:55.817 +10:00 [DBG] Disposed connection to database 'amazonascarbontrackerdb' on server 'tcp://localhost:5432' (0ms).
+2024-06-30 18:53:55.817 +10:00 [INF] Request finished HTTP/1.1 POST http://localhost:5278/api/v1/auth/login - 200 400 application/json; charset=utf-8 976.939ms
+2024-06-30 18:54:13.296 +10:00 [INF] Application is shutting down...
+2024-06-30 18:54:13.297 +10:00 [DBG] Hosting stopping
+2024-06-30 18:54:13.300 +10:00 [DBG] Connection id "0HN4OS8DUBV1R" disconnecting.
+2024-06-30 18:54:13.300 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" disconnecting.
+2024-06-30 18:54:13.301 +10:00 [DBG] Connection id "0HN4OS8DUBV1R" stopped.
+2024-06-30 18:54:13.301 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" stopped.
+2024-06-30 18:54:13.301 +10:00 [DBG] Connection id "0HN4OS8DUBV1R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-30 18:54:13.301 +10:00 [DBG] Connection id "0HN4OS8DUBV1Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-30 18:54:13.305 +10:00 [DBG] Hosting stopped
+2024-06-30 18:55:24.924 +10:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-30 18:55:24.967 +10:00 [DBG] Hosting starting
+2024-06-30 18:55:24.974 +10:00 [INF] User profile is available. Using 'C:\Users\skill\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-30 18:55:24.977 +10:00 [DBG] Reading data from file 'C:\Users\skill\AppData\Local\ASP.NET\DataProtection-Keys\key-3559f61d-0ba4-4ed7-9bed-237b220c4825.xml'.
+2024-06-30 18:55:24.981 +10:00 [DBG] Found key {3559f61d-0ba4-4ed7-9bed-237b220c4825}.
+2024-06-30 18:55:24.985 +10:00 [DBG] Considering key {3559f61d-0ba4-4ed7-9bed-237b220c4825} with expiration date 2024-09-13 09:24:24Z as default key.
+2024-06-30 18:55:24.986 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-30 18:55:24.987 +10:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-06-30 18:55:24.987 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-30 18:55:24.989 +10:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-06-30 18:55:24.990 +10:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-06-30 18:55:24.990 +10:00 [DBG] Using key {3559f61d-0ba4-4ed7-9bed-237b220c4825} as the default key.
+2024-06-30 18:55:24.990 +10:00 [DBG] Key ring with default key {3559f61d-0ba4-4ed7-9bed-237b220c4825} was loaded during application startup.
+2024-06-30 18:55:25.014 +10:00 [INF] Now listening on: http://localhost:5278
+2024-06-30 18:55:25.014 +10:00 [DBG] Loaded hosting startup assembly AmazonasCarbonTracker
+2024-06-30 18:55:25.014 +10:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-30 18:55:25.014 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-30 18:55:25.014 +10:00 [INF] Hosting environment: Development
+2024-06-30 18:55:25.014 +10:00 [INF] Content root path: C:\Users\skill\source\repos\AmazonasCarbonTracker\amazonascarbontracker
+2024-06-30 18:55:25.014 +10:00 [DBG] Hosting started
+2024-06-30 18:55:32.731 +10:00 [INF] Application is shutting down...
+2024-06-30 18:55:32.731 +10:00 [DBG] Hosting stopping
+2024-06-30 18:55:32.737 +10:00 [DBG] Hosting stopped

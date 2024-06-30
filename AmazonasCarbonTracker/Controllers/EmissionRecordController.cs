@@ -1,14 +1,15 @@
-using AmazonasCarbonTracker.Data;
-using AmazonasCarbonTracker.Dtos;
-using AmazonasCarbonTracker.Dtos.EmissionRecordDtos;
-using AmazonasCarbonTracker.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using AmazonasCarbonTracker.Dtos;
+using AmazonasCarbonTracker.Models;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AmazonasCarbonTracker.Dtos.EmissionRecordDtos;
+using AmazonasCarbonTracker.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AmazonasCarbonTracker.Controllers
 {
@@ -24,7 +25,6 @@ namespace AmazonasCarbonTracker.Controllers
             _context = context;
         }
 
-        // GET: api/EmissionRecords
         [HttpGet]
         public async Task<ActionResult<IEnumerable<EmissionRecordDto>>> GetEmissionRecords()
         {
@@ -43,11 +43,11 @@ namespace AmazonasCarbonTracker.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Error retrieving emission records");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
-        // GET: api/EmissionRecords/5
         [HttpGet("{id}")]
         public async Task<ActionResult<EmissionRecordDto>> GetEmissionRecord(int id)
         {
@@ -73,11 +73,11 @@ namespace AmazonasCarbonTracker.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, $"Error retrieving emission record with id {id}");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
-        // POST: api/EmissionRecords
         [HttpPost]
         public async Task<ActionResult<EmissionRecordDto>> PostEmissionRecord(CreateEmissionDto createDto)
         {
@@ -88,6 +88,7 @@ namespace AmazonasCarbonTracker.Controllers
 
                 if (user == null)
                 {
+                    Log.Warning($"Invalid AppUserId. User does not exist: {createDto.AppUserId}");
                     return BadRequest("Invalid AppUserId. User does not exist.");
                 }
 
@@ -102,15 +103,16 @@ namespace AmazonasCarbonTracker.Controllers
                 _context.EmissionRecords.Add(emissionRecord);
                 await _context.SaveChangesAsync();
 
+                Log.Information($"Emission record created successfully. Id: {emissionRecord.Id}");
                 return CreatedAtAction(nameof(GetEmissionRecord), new { id = emissionRecord.Id }, emissionRecord);
             }
             catch (Exception ex)
             {
+                Log.Error(ex, "Error creating emission record");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
-        // PUT: api/EmissionRecords/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutEmissionRecord(int id, UpdateEmissionDto updateDto)
         {
@@ -129,6 +131,7 @@ namespace AmazonasCarbonTracker.Controllers
 
                 await _context.SaveChangesAsync();
 
+                Log.Information($"Emission record updated successfully. Id: {id}");
                 return NoContent();
             }
             catch (DbUpdateConcurrencyException)
@@ -144,11 +147,11 @@ namespace AmazonasCarbonTracker.Controllers
             }
             catch (Exception ex)
             {
+                Log.Error(ex, $"Error updating emission record with id {id}");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
 
-        // DELETE: api/EmissionRecords/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmissionRecord(int id)
         {
@@ -164,10 +167,12 @@ namespace AmazonasCarbonTracker.Controllers
                 _context.EmissionRecords.Remove(emissionRecord);
                 await _context.SaveChangesAsync();
 
+                Log.Information($"Emission record deleted successfully. Id: {id}");
                 return NoContent();
             }
             catch (Exception ex)
             {
+                Log.Error(ex, $"Error deleting emission record with id {id}");
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
