@@ -30,7 +30,7 @@ Carbon Emission Records Management: Users can create, update, delete, and retrie
 
 Sustainability Metrics Management: Users can manage sustainability metrics.
 
-API Documentation: Swagger/OpenAPI integration for easy API documentation and testing.
+API Documentation: Swagger integration for easy API documentation and testing.
 
 Logging: Comprehensive logging using Serilog.
 
