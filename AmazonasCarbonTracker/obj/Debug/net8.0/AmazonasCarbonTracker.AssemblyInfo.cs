@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmazonasCarbonTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbfe4d48eadfabd93e22fc5f8a453b68850b203c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdc1fdbb35610116997b1ba8463a348094a54229")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmazonasCarbonTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmazonasCarbonTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

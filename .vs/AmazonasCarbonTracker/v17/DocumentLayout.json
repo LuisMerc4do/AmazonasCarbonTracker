@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|c:\\users\\skill\\source\\repos\\amazonascarbontracker\\amazonascarbontracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|solutionrelative:amazonascarbontracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|c:\\users\\skill\\source\\repos\\amazonascarbontracker\\amazonascarbontracker\\amazonascarbontracker.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|solutionrelative:amazonascarbontracker\\amazonascarbontracker.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|c:\\users\\skill\\source\\repos\\amazonascarbontracker\\amazonascarbontracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|solutionrelative:amazonascarbontracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|c:\\users\\skill\\source\\repos\\amazonascarbontracker\\amazonascarbontracker\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|solutionrelative:amazonascarbontracker\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|c:\\users\\skill\\source\\repos\\amazonascarbontracker\\amazonascarbontracker\\models\\sustainabilitymetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|solutionrelative:amazonascarbontracker\\models\\sustainabilitymetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|c:\\users\\skill\\source\\repos\\amazonascarbontracker\\amazonascarbontracker\\models\\emissionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{517EA760-7A3E-48F2-B874-E09996128C79}|AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj|solutionrelative:amazonascarbontracker\\models\\emissionrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,89 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\appsettings.json",
-              "RelativeDocumentMoniker": "AmazonasCarbonTracker\\appsettings.json",
-              "ToolTip": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\appsettings.json",
-              "RelativeToolTip": "AmazonasCarbonTracker\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-25T12:42:45.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AmazonasCarbonTracker.http",
-              "DocumentMoniker": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.http",
-              "RelativeDocumentMoniker": "AmazonasCarbonTracker\\AmazonasCarbonTracker.http",
-              "ToolTip": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.http",
-              "RelativeToolTip": "AmazonasCarbonTracker\\AmazonasCarbonTracker.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-06-25T12:42:44.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SustainabilityMetric.cs",
-              "DocumentMoniker": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Models\\SustainabilityMetric.cs",
-              "RelativeDocumentMoniker": "AmazonasCarbonTracker\\Models\\SustainabilityMetric.cs",
-              "ToolTip": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Models\\SustainabilityMetric.cs",
-              "RelativeToolTip": "AmazonasCarbonTracker\\Models\\SustainabilityMetric.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T12:39:39.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmissionRecord.cs",
-              "DocumentMoniker": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Models\\EmissionRecord.cs",
-              "RelativeDocumentMoniker": "AmazonasCarbonTracker\\Models\\EmissionRecord.cs",
-              "ToolTip": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Models\\EmissionRecord.cs",
-              "RelativeToolTip": "AmazonasCarbonTracker\\Models\\EmissionRecord.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T12:39:29.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "AmazonasCarbonTracker\\Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "AmazonasCarbonTracker\\Data\\ApplicationDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T12:38:50.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Program.cs",
               "RelativeDocumentMoniker": "AmazonasCarbonTracker\\Program.cs",
               "ToolTip": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\Program.cs",
               "RelativeToolTip": "AmazonasCarbonTracker\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T12:36:31.214Z",
+              "WhenOpened": "2024-06-30T08:58:23.127Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

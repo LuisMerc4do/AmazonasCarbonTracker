@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1M24oUy0+dM=",
+  "dgSpecHash": "tH5RC8TaG3E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\amazonascarbontracker\\AmazonasCarbonTracker.csproj",
+  "projectFilePath": "C:\\Users\\skill\\source\\repos\\AmazonasCarbonTracker\\AmazonasCarbonTracker\\AmazonasCarbonTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skill\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\skill\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

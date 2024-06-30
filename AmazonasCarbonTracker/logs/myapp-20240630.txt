@@ -180,3 +180,88 @@ LIMIT 1
 2024-06-30 18:55:32.731 +10:00 [INF] Application is shutting down...
 2024-06-30 18:55:32.731 +10:00 [DBG] Hosting stopping
 2024-06-30 18:55:32.737 +10:00 [DBG] Hosting stopped
+2024-06-30 18:58:28.593 +10:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-30 18:58:28.664 +10:00 [DBG] Hosting starting
+2024-06-30 18:58:28.685 +10:00 [INF] User profile is available. Using 'C:\Users\skill\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-30 18:58:28.689 +10:00 [DBG] Reading data from file 'C:\Users\skill\AppData\Local\ASP.NET\DataProtection-Keys\key-3559f61d-0ba4-4ed7-9bed-237b220c4825.xml'.
+2024-06-30 18:58:28.694 +10:00 [DBG] Found key {3559f61d-0ba4-4ed7-9bed-237b220c4825}.
+2024-06-30 18:58:28.698 +10:00 [DBG] Considering key {3559f61d-0ba4-4ed7-9bed-237b220c4825} with expiration date 2024-09-13 09:24:24Z as default key.
+2024-06-30 18:58:28.699 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-30 18:58:28.700 +10:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-06-30 18:58:28.701 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-06-30 18:58:28.703 +10:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-06-30 18:58:28.704 +10:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-06-30 18:58:28.704 +10:00 [DBG] Using key {3559f61d-0ba4-4ed7-9bed-237b220c4825} as the default key.
+2024-06-30 18:58:28.704 +10:00 [DBG] Key ring with default key {3559f61d-0ba4-4ed7-9bed-237b220c4825} was loaded during application startup.
+2024-06-30 18:58:28.858 +10:00 [INF] Now listening on: https://localhost:7216
+2024-06-30 18:58:28.858 +10:00 [INF] Now listening on: http://localhost:5278
+2024-06-30 18:58:28.858 +10:00 [DBG] Loaded hosting startup assembly AmazonasCarbonTracker
+2024-06-30 18:58:28.858 +10:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-30 18:58:28.858 +10:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-06-30 18:58:28.858 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-30 18:58:28.858 +10:00 [INF] Hosting environment: Development
+2024-06-30 18:58:28.858 +10:00 [INF] Content root path: C:\Users\skill\source\repos\AmazonasCarbonTracker\AmazonasCarbonTracker
+2024-06-30 18:58:28.858 +10:00 [DBG] Hosting started
+2024-06-30 18:58:29.331 +10:00 [DBG] Connection id "0HN4OSB7Q4DDO" received FIN.
+2024-06-30 18:58:29.334 +10:00 [DBG] Connection id "0HN4OSB7Q4DDO" accepted.
+2024-06-30 18:58:29.335 +10:00 [DBG] Connection id "0HN4OSB7Q4DDO" started.
+2024-06-30 18:58:29.519 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-06-30 18:58:29.590 +10:00 [DBG] Connection id "0HN4OSB7Q4DDO" stopped.
+2024-06-30 18:58:29.597 +10:00 [DBG] Connection id "0HN4OSB7Q4DDO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-30 18:58:32.910 +10:00 [DBG] Connection id "0HN4OSB7Q4DDQ" accepted.
+2024-06-30 18:58:32.910 +10:00 [DBG] Connection id "0HN4OSB7Q4DDP" accepted.
+2024-06-30 18:58:32.910 +10:00 [DBG] Connection id "0HN4OSB7Q4DDQ" started.
+2024-06-30 18:58:32.911 +10:00 [DBG] Connection id "0HN4OSB7Q4DDP" started.
+2024-06-30 18:58:32.912 +10:00 [DBG] Connection id "0HN4OSB7Q4DDR" accepted.
+2024-06-30 18:58:32.912 +10:00 [DBG] Connection id "0HN4OSB7Q4DDR" started.
+2024-06-30 18:58:32.963 +10:00 [DBG] Connection 0HN4OSB7Q4DDR established using the following protocol: "Tls13"
+2024-06-30 18:58:32.963 +10:00 [DBG] Connection 0HN4OSB7Q4DDQ established using the following protocol: "Tls13"
+2024-06-30 18:58:33.016 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger - null null
+2024-06-30 18:58:33.176 +10:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-06-30 18:58:33.202 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger - 301 0 null 189.8603ms
+2024-06-30 18:58:33.210 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2024-06-30 18:58:33.266 +10:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-06-30 18:58:33.267 +10:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-06-30 18:58:33.279 +10:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-06-30 18:58:33.279 +10:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-06-30 18:58:33.280 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 70.2501ms
+2024-06-30 18:58:33.316 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/swagger-ui-bundle.js - null null
+2024-06-30 18:58:33.316 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/swagger-ui.css - null null
+2024-06-30 18:58:33.316 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-30 18:58:33.316 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-30 18:58:33.317 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2024-06-30 18:58:33.334 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 17.883ms
+2024-06-30 18:58:33.374 +10:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-30 18:58:33.374 +10:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-30 18:58:33.376 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/swagger-ui.css - 200 152034 text/css 60.2137ms
+2024-06-30 18:58:33.376 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 60.1791ms
+2024-06-30 18:58:33.409 +10:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-30 18:58:33.410 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 93.7663ms
+2024-06-30 18:58:33.480 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.8281ms
+2024-06-30 18:58:33.606 +10:00 [DBG] Connection id "0HN4OSB7Q4DDP" received FIN.
+2024-06-30 18:58:33.606 +10:00 [DBG] Connection id "0HN4OSB7Q4DDQ" received FIN.
+2024-06-30 18:58:33.607 +10:00 [DBG] Connection id "0HN4OSB7Q4DDP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-30 18:58:33.607 +10:00 [DBG] Connection id "0HN4OSB7Q4DDP" disconnecting.
+2024-06-30 18:58:33.607 +10:00 [DBG] Connection id "0HN4OSB7Q4DDR" received FIN.
+2024-06-30 18:58:33.609 +10:00 [DBG] Connection id "0HN4OSB7Q4DDP" stopped.
+2024-06-30 18:58:33.609 +10:00 [DBG] The connection queue processing loop for 0HN4OSB7Q4DDQ completed.
+2024-06-30 18:58:33.609 +10:00 [DBG] The connection queue processing loop for 0HN4OSB7Q4DDR completed.
+2024-06-30 18:58:33.611 +10:00 [DBG] Connection id "0HN4OSB7Q4DDQ" is closed. The last processed stream ID was 0.
+2024-06-30 18:58:33.611 +10:00 [DBG] Connection id "0HN4OSB7Q4DDR" is closed. The last processed stream ID was 13.
+2024-06-30 18:58:33.611 +10:00 [DBG] Connection id "0HN4OSB7Q4DDQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-30 18:58:33.611 +10:00 [DBG] Connection id "0HN4OSB7Q4DDR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-30 18:58:33.624 +10:00 [DBG] Connection id "0HN4OSB7Q4DDR" stopped.
+2024-06-30 18:58:33.624 +10:00 [DBG] Connection id "0HN4OSB7Q4DDQ" stopped.
+2024-06-30 18:58:33.634 +10:00 [DBG] Connection id "0HN4OSB7Q4DDS" accepted.
+2024-06-30 18:58:33.635 +10:00 [DBG] Connection id "0HN4OSB7Q4DDS" started.
+2024-06-30 18:58:33.639 +10:00 [DBG] Connection 0HN4OSB7Q4DDS established using the following protocol: "Tls13"
+2024-06-30 18:58:33.641 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2024-06-30 18:58:33.660 +10:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/favicon-32x32.png - null null
+2024-06-30 18:58:33.661 +10:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-30 18:58:33.661 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/favicon-32x32.png - 200 628 image/png 1.0743ms
+2024-06-30 18:58:33.747 +10:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.7559ms
