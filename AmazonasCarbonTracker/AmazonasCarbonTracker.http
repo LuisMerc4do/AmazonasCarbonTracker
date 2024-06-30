@@ -1,0 +1,6 @@
+@AmazonasCarbonTracker_HostAddress = http://localhost:5278
+
+GET {{AmazonasCarbonTracker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
