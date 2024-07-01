@@ -2,6 +2,7 @@
 
 The Amazonas Carbon Tracker is an ASP.NET Core web application designed to help users track and manage their carbon emissions and sustainability metrics. This application uses a combination of modern technologies, including Entity Framework Core, JWT for authentication, and Serilog for logging. It also incorporates caching to improve performance.
 
+Still working in upcoming features 
 ## Carbon Emission Records Management
 
 Create Emission Records: Users can create new emission records.
